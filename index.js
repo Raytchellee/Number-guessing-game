@@ -13,10 +13,10 @@ function guessRandomNumber(range) {
 
   // check if number is correct
   if (guessedValue == randomValue) {
-    alert("You guessed correctly! On to the next level!");
     range += 1;
     point += 1;
-    alert(`You scored one point! Your total point is ${point}`);
+    alert(`Congratulations! You guessed correctly! Your range will be increased to ${range}`);
+    alert(`You have scored one point and your total point is ${point}!`);
     let cont = prompt("Do you want to continue. Enter Yes/No: ");
 
     while (cont != "Yes" && cont != "No") {
