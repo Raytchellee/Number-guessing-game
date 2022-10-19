@@ -6,5 +6,5 @@ An individual will have to guess the number between 1 and range of numbers start
 
 The game was built on replit using javascript.
 
-you can find the replit link below:
+you can find the replit link here:
 https://replit.com/@Raytchellee/Number-guessing-game?v=1
