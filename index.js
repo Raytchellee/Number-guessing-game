@@ -5,10 +5,10 @@ function guessRandomNumber(range) {
   let randomValue = Math.floor((Math.random() * range) + 1);
 
   // accept the input value
-  let guessedValue = parseInt(prompt(`Guess any number between one and ${range}`));
+  let guessedValue = parseInt(prompt(`Guess any number between 1 and ${range}`));
 
   while (guessedValue != randomValue) {
-    guessedValue = parseInt(prompt(`Number does not match. Guess another number between one and ${range}`));
+    guessedValue = parseInt(prompt(`Number does not match. Guess another number between 1 and ${range}`));
   }
 
   // check if number is correct
