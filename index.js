@@ -1,5 +1,11 @@
 let range = 2;
 let point = 0;
+let username = prompt(`Hello! Please enter your name: `);
+
+let intro = prompt(`Hello ${username}! I hope your day is as bright as mine. We're about to play a guessing game. I'll generate a random number and you will try to guess the number. Feel free to try as many times as possible! Ready? Press Enter to continue: `);
+
+guessRandomNumber(range);
+
 function guessRandomNumber(range) {
   // generate random number between one and two
   let randomValue = Math.floor((Math.random() * range) + 1);
@@ -31,4 +37,4 @@ function guessRandomNumber(range) {
 
 }
 
-guessRandomNumber(range);
+
